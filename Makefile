@@ -40,7 +40,7 @@ test:
 package:
 	helm dependency update charts/onechart
 	helm package charts/onechart
-	mv onechart*.tgz docs
+	mv eldath-helm-app-onechart*.tgz docs
 
 	helm dependency update charts/cron-job
 	helm package charts/cron-job
